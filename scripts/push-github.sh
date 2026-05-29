@@ -8,6 +8,8 @@ if ! gh auth status &>/dev/null; then
   exit 1
 fi
 
+gh config set git_protocol https -h github.com 2>/dev/null || true
+
 if git remote get-url origin &>/dev/null; then
   git push -u origin main
 else

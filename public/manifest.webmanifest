@@ -1,7 +1,7 @@
 {
   "name": "猫咪数独",
   "short_name": "数独",
-  "description": "可爱猫咪主题数独，手机点开即玩",
+  "description": "猫咪主题数独，支持多难度与自定义出题，手机点开即玩",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#FFF0F7",

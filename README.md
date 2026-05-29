@@ -8,7 +8,8 @@ https://sudoku-app-gamma-nine.vercel.app
 
 ## 版本
 
-- **v1.1.0** — H5 移动端优化（全屏视口、安全区、触控、分享卡片、PWA manifest）
+- **v1.2.0** — 完整 H5 分享（推广图4.jpg → og-share.jpg，Open Graph / Twitter / 微信 itemprop）
+- **v1.1.0** — H5 移动端优化（全屏视口、安全区、触控、分享卡片、 PWA manifest）
 - **v1.0.0** — 基础数独玩法、自定义出题、存档
 
 ## 本地开发
@@ -31,4 +32,4 @@ npm run package    # 打包 dist 为 zip（离线分发）
 
 - 用手机浏览器或微信打开线上链接即可游玩
 - iOS Safari：分享 → **添加到主屏幕**，可全屏打开
-- 微信分享会读取 `share-cover.png` 作为链接预览图
+- 微信/QQ 分享会读取 `推广图4.jpg`（构建时同步为 `public/og-share.jpg`）作为链接预览图

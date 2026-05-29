@@ -1,10 +1,11 @@
 {
   "name": "sudoku-app",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "prebuild": "node scripts/sync-share-image.mjs",
     "build": "vite build",
     "preview": "vite preview",
     "package": "npm run build && rm -f sudoku-app-dist.zip && zip -r sudoku-app-dist.zip dist -x '*.DS_Store'",
